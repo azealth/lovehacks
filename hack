@@ -77,7 +77,7 @@ local function EALOCE_fake_script() -- Fake Script: StarterGui.ScreenGui.LocalSc
         return req(obj)
     end
 
-	script.Parent.Draggable = true
+	--script.Parent.Draggable = true
 	
 	local function toHMS(s)
 		return string.format("%02i:%02i:%02i", s/60^2, s/60%60, s%60)
